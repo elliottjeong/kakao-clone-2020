@@ -1,7 +1,7 @@
 nav {
     background-color: #f9f9fa;
     padding: 20px 5px;
-    border-top: 1px solid rgba(0, 0, 0, 0.05);
+    border-top: var(--main-border);
     position: fixed;
     bottom: 0;
     width: 100%;
@@ -38,7 +38,6 @@ nav {
 }
 
 .nav__notification__ellipsis {
-    position: absolute;
     left: 23px;
     bottom: 19px;
 }
