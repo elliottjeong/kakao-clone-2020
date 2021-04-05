@@ -61,6 +61,7 @@
 .message-row__container {
     display: flex;
     flex-direction: column;
+    width: 359.04px;
 }
 
 .message__author {
@@ -95,7 +96,7 @@
 }
 
 .message-row--own .message__bubble {
-    background-color: rgb(184, 185, 185);
+    background-color: rgb(206, 206, 206);
     border-top-right-radius: 0;
     border-top-left-radius: 15px;
 }

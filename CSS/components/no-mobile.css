@@ -8,15 +8,17 @@
     align-items: center;
     font-size: 20px;
     top: 0;
-    background-image: url("https://i.pinimg.com/originals/e7/e7/8b/e7e78b7e9c86d37a47bd88f8de794a6a.jpg");
+    background-image: url("https://cdn.pixabay.com/photo/2021/03/11/15/34/tulips-6087448_1280.jpg");
     background-repeat: no-repeat;
     background-size: cover;
 }
 
 #no-mobile span {
-    background-color: white;
+    background-color: rgba(255, 255, 255, 0.767);
     padding: 10px;
     border-radius: 10px;
+    font-family: monospace;
+    padding-left: 13px;
 }
 
 @media screen and (max-width: 500px) {
