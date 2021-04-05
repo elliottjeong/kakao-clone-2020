@@ -1,0 +1,38 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600&display=swap");
+
+@import "reset.css";
+@import "variables.css";
+
+/* Components */
+@import "components/status-bar.css";
+@import "components/nav-bar.css";
+@import "components/screen-header.css";
+@import "components/user-component.css";
+@import "components/badge.css";
+@import "components/alert.css";
+@import "components/icon-row.css";
+@import "components/alt-screen-header.css";
+@import "components/no-mobile.css";
+
+/* Screens */
+@import "screens/login.css";
+@import "screens/friends.css";
+@import "screens/find.css";
+@import "screens/more.css";
+@import "screens/settings.css";
+@import "screens/chat.css";
+
+body {
+    font-family: "Open Sans", sans-serif;
+    color: #2f363e;
+    padding-top: 26px;
+    background-image: url("https://cdn.pixabay.com/photo/2021/03/11/15/34/tulips-6087448_1280.jpg");
+}
+
+.main-screen {
+    padding: 0px var(--horizontal-space);
+}
+
+.main-screen-settings {
+    height: 90vh;
+}
