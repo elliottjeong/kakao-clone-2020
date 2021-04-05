@@ -22,6 +22,7 @@
 }
 
 .friends-screen__channel-header {
+    margin-top: 2px;
     margin-bottom: 25px;
     display: flex;
     justify-content: space-between;

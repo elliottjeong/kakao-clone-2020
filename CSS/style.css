@@ -24,8 +24,9 @@
 
 body {
     font-family: "Open Sans", sans-serif;
-    color: color: #2f363e;
+    color: #2f363e;
     padding-top: 26px;
+    background-image: url("https://cdn.pixabay.com/photo/2021/03/11/15/34/tulips-6087448_1280.jpg");
 }
 
 .main-screen {
