@@ -59,6 +59,7 @@
     height: 25px;
     border-radius: 12.5px;
     margin-right: 5px;
+    object-fit: cover;
 }
 
 .open-post__member-count {
@@ -74,7 +75,7 @@
 }
 
 .open-post__member-status {
-    color: #ff6cc6;
+    color: #8a0022;
 }
 
 .open-post__thumnail img {
